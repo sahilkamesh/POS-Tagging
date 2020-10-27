@@ -10,7 +10,7 @@ def evaluate_accuracies(predicted_sentences, tag_sentences):
     :param tag_sentences:
     :return: (Accuracy, correct word-tag counter, wrong word-tag counter)
     """
-    print(tag_sentences[1])
+    #print(tag_sentences[1])
     assert len(predicted_sentences) == len(tag_sentences), "The number of predicted sentence {} does not match the true number {}".format(len(predicted_sentences), len(tag_sentences))
 
     correct_wordtagcounter = {}
